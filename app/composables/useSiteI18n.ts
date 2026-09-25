@@ -73,7 +73,7 @@ const messages = {
   },
   pl: {
     langNav: 'Język',
-    location: 'Włoch, bazujący w Polsce',
+    location: 'Z Włoch, w Polsce',
     subtitle: 'E‑commerce, rozwój web & electronic craft.',
     contactMe: 'Kontakt',
     development: 'Rozwój',
@@ -84,7 +84,7 @@ const messages = {
     footer: 'Pianista / keyboardista',
     pageTitle: 'Emanuele Gian — E-commerce, rozwój web & electronic craft',
     pageDescription:
-      'Emanuele Gian (EG-Lab): e-commerce i rozwój web (PHP, Laravel, Magento / Adobe Commerce) oraz elektronika. Włoch, bazujący w Polsce.',
+      'Emanuele Gian (EG-Lab): e-commerce i rozwój web (PHP, Laravel, Magento / Adobe Commerce) oraz elektronika. Z Włoch, w Polsce.',
     developmentSummary: [
       'Rozwój e-commerce, integracje i utrzymanie',
       'Rozwój aplikacji custom',

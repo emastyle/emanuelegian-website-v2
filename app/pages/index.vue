@@ -57,25 +57,24 @@ function onLocale(next: Locale) {
 
 <template>
   <div class="page">
-    <header class="top">
-      <nav class="lang" :aria-label="t.langNav">
-        <button
-          v-for="code in locales"
-          :key="code"
-          type="button"
-          class="lang__btn"
-          :class="{ 'lang__btn--active': locale === code }"
-          :aria-current="locale === code ? 'true' : undefined"
-          @click="onLocale(code)"
-        >
-          {{ code }}
-        </button>
-      </nav>
-    </header>
-
     <main>
       <section class="hero" aria-labelledby="name">
-        <p class="eyebrow">EG-Lab</p>
+        <div class="hero-top">
+          <p class="eyebrow">EG-Lab</p>
+          <nav class="lang" :aria-label="t.langNav">
+            <button
+              v-for="code in locales"
+              :key="code"
+              type="button"
+              class="lang__btn"
+              :class="{ 'lang__btn--active': locale === code }"
+              :aria-current="locale === code ? 'true' : undefined"
+              @click="onLocale(code)"
+            >
+              {{ code }}
+            </button>
+          </nav>
+        </div>
         <h1 id="name">Emanuele Gian</h1>
         <p class="location">{{ t.location }}</p>
         <p class="subtitle">
@@ -177,23 +176,26 @@ function onLocale(next: Locale) {
 .page {
   width: min(100% - 2 * var(--space), var(--max));
   margin: 0 auto;
-  padding: calc(var(--space) * 1.25) 0 calc(var(--space) * 2);
+  padding: 1rem 0 calc(var(--space) * 2);
 }
 
-.top {
+.hero-top {
   display: flex;
-  justify-content: flex-end;
-  margin-bottom: calc(var(--space) * 1.5);
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.55rem;
   animation: rise 0.7s ease both;
 }
 
 .lang {
   display: flex;
-  gap: 0.75rem;
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
+  gap: 0.65rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: 500;
+  flex-shrink: 0;
 }
 
 .lang__btn {
@@ -205,20 +207,20 @@ function onLocale(next: Locale) {
   text-transform: inherit;
   font-weight: inherit;
   color: var(--ink-muted);
-  opacity: 0.55;
+  opacity: 0.5;
   cursor: pointer;
 }
 
 .lang__btn:hover {
   color: var(--ink);
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 .lang__btn--active {
-  color: var(--ink);
-  opacity: 1;
-  border-bottom: 1.5px solid var(--accent);
-  padding-bottom: 0.1rem;
+  color: var(--ink-muted);
+  opacity: 0.95;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 0.08rem;
 }
 
 .lang__btn:focus-visible {
@@ -233,11 +235,13 @@ function onLocale(next: Locale) {
 }
 
 .eyebrow {
-  margin: 0 0 0.75rem;
-  font-size: 0.78rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--ink-muted);
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: var(--ink);
 }
 
 h1 {
