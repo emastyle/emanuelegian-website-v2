@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 const siteUrl = 'https://www.emanuelegian.com'
+const baseURL = process.env.NUXT_APP_BASE_URL || '/'
 const defaultTitle =
   'Emanuele Gian — E-commerce, web development & electronic craft'
 const defaultDescription =
@@ -10,6 +11,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
 
   app: {
+    baseURL,
     head: {
       title: defaultTitle,
       htmlAttrs: { lang: 'en' },
