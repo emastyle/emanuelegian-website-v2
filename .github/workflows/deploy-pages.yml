@@ -26,9 +26,8 @@ jobs:
       - run: npm ci
       - run: npm run generate
         env:
-          # Project Pages URL: /emanuelegian-website-v2/
-          # After custom domain points to this repo at root, change to "/"
-          NUXT_APP_BASE_URL: /emanuelegian-website-v2/
+          # Custom domain serves this repo at site root
+          NUXT_APP_BASE_URL: /
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .output/public
