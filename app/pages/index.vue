@@ -5,25 +5,26 @@ const email = 'emanuele@emanuelegian.com'
 const linkedIn = 'https://www.linkedin.com/in/emanuelegian'
 
 const { locale, locales, t, setLocale } = useSiteI18n()
+const baseURL = useRuntimeConfig().app.baseURL || '/'
 
 const certifications = [
   {
-    src: withBase('/certs/adobe-professional.png'),
+    src: `${baseURL}certs/adobe-professional.png`.replace(/\/{2,}/g, '/'),
     alt: 'Adobe Certified Professional — Magento Commerce Developer',
     href: 'https://certification.adobe.com/credential/verify/3916b265-38cf-483d-8352-42a35e2738a2',
   },
   {
-    src: withBase('/certs/adobe-expert.png'),
+    src: `${baseURL}certs/adobe-expert.png`.replace(/\/{2,}/g, '/'),
     alt: 'Adobe Certified Expert — Magento Commerce Cloud Developer',
     href: 'https://certification.adobe.com/credential/verify/02e5dda1-dd65-445e-8722-a403847a7857',
   },
   {
-    src: withBase('/certs/zce-php-engineer.png'),
+    src: `${baseURL}certs/zce-php-engineer.png`.replace(/\/{2,}/g, '/'),
     alt: 'Zend Certified PHP Engineer',
     href: 'http://www.zend.com/en/yellow-pages/ZEND029844',
   },
   {
-    src: withBase('/certs/magento-developer.png'),
+    src: `${baseURL}certs/magento-developer.png`.replace(/\/{2,}/g, '/'),
     alt: 'Magento Certified Developer',
     href: null,
   },
