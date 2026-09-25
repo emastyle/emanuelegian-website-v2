@@ -1,0 +1,50 @@
+:root {
+  --bg: #f2f2f0;
+  --bg-elevated: #e8e8e4;
+  --ink: #1c1c1a;
+  --ink-muted: #5c5c56;
+  --line: #cfcfca;
+  --accent: #2f6b4f;
+  --accent-soft: #d7e8de;
+  --font-display: 'Fraunces', 'Times New Roman', serif;
+  --font-body: 'IBM Plex Sans', 'Helvetica Neue', sans-serif;
+  --space: clamp(1rem, 2.5vw, 2rem);
+  --max: 42rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--ink);
+  background:
+    radial-gradient(120% 80% at 100% -10%, var(--accent-soft) 0%, transparent 55%),
+    linear-gradient(180deg, #f7f7f4 0%, var(--bg) 40%, #ecece8 100%);
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
