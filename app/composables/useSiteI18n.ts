@@ -13,7 +13,7 @@ const messages = {
     more: 'More',
     showLess: 'Show less',
     certifications: 'Certifications',
-    footer: 'Pianist / keyboardist',
+    footer: "I'm also a pianist / keyboardist ;)",
     pageTitle: 'Emanuele Gian — E-commerce, web development & electronic craft',
     pageDescription:
       'Emanuele Gian (EG-Lab): e-commerce and web development (PHP, Laravel, Magento / Adobe Commerce) and electronics. Italian, based in Poland.',
@@ -47,7 +47,7 @@ const messages = {
     more: 'Di più',
     showLess: 'Mostra meno',
     certifications: 'Certificazioni',
-    footer: 'Pianista / tastierista',
+    footer: 'Sono anche pianista / tastierista ;)',
     pageTitle: 'Emanuele Gian — E-commerce, sviluppo web & electronic craft',
     pageDescription:
       'Emanuele Gian (EG-Lab): e-commerce e sviluppo web (PHP, Laravel, Magento / Adobe Commerce) ed elettronica. Italiano, basato in Polonia.',
@@ -81,7 +81,7 @@ const messages = {
     more: 'Więcej',
     showLess: 'Pokaż mniej',
     certifications: 'Certyfikaty',
-    footer: 'Pianista / keyboardista',
+    footer: 'Gram też na pianinie / keyboardzie ;)',
     pageTitle: 'Emanuele Gian — E-commerce, rozwój web & electronic craft',
     pageDescription:
       'Emanuele Gian (EG-Lab): e-commerce i rozwój web (PHP, Laravel, Magento / Adobe Commerce) oraz elektronika. Z Włoch, w Polsce.',
