@@ -20,12 +20,12 @@ const messages = {
     developmentSummary: [
       'E-commerce development, integrations & maintenance',
       'Custom application development',
-      'PHP, Laravel, Magento / Adobe Commerce',
+      'Backend-focused full-stack work on complex platforms',
     ],
     developmentMore: [
-      'Backend-focused full-stack work on complex commerce platforms',
       'Integrations with ERP, CRM, payment gateways, SSO, and SAP / PIM / ETL',
-      'Hands-on experience with Adobe Commerce Cloud',
+      'Problem-solving, teamwork, mentoring & Agile/Scrum',
+      'PHP, Laravel, Magento / Adobe Commerce',
     ],
     electronicsSummary: [
       'Prototyping and repair (digital / RF / audio)',
@@ -54,12 +54,12 @@ const messages = {
     developmentSummary: [
       'Sviluppo e-commerce, integrazioni e manutenzione',
       'Sviluppo di applicazioni custom',
-      'PHP, Laravel, Magento / Adobe Commerce',
+      'Full-stack con focus backend su piattaforme complesse',
     ],
     developmentMore: [
-      'Full-stack con focus backend su piattaforme commerce complesse',
       'Integrazioni con ERP, CRM, gateway di pagamento, SSO e SAP / PIM / ETL',
-      'Esperienza pratica su Adobe Commerce Cloud',
+      'Problem solving, lavoro di squadra, mentoring e Agile/Scrum',
+      'PHP, Laravel, Magento / Adobe Commerce',
     ],
     electronicsSummary: [
       'Prototipazione e riparazione (digitale / RF / audio)',
@@ -88,12 +88,12 @@ const messages = {
     developmentSummary: [
       'Rozwój e-commerce, integracje i utrzymanie',
       'Rozwój aplikacji custom',
-      'PHP, Laravel, Magento / Adobe Commerce',
+      'Full-stack z naciskiem na backend złożonych platform',
     ],
     developmentMore: [
-      'Full-stack z naciskiem na backend złożonych platform commerce',
       'Integracje z ERP, CRM, bramkami płatności, SSO oraz SAP / PIM / ETL',
-      'Praktyczne doświadczenie z Adobe Commerce Cloud',
+      'Rozwiązywanie problemów, praca zespołowa, mentoring i Agile/Scrum',
+      'PHP, Laravel, Magento / Adobe Commerce',
     ],
     electronicsSummary: [
       'Prototypowanie i naprawa (cyfrowe / RF / audio)',
