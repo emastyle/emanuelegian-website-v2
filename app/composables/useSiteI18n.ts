@@ -34,7 +34,7 @@ const messages = {
     ],
     electronicsMore: [
       'Microcontroller / embedded programming',
-      'Circuit design, debug & bench work',
+      'Circuit design / troubleshooting',
     ],
   },
   it: {
@@ -68,7 +68,7 @@ const messages = {
     ],
     electronicsMore: [
       'Programmazione microcontroller / embedded',
-      'Progettazione circuiti, debug e misure',
+      'Progettazione circuiti / troubleshooting',
     ],
   },
   pl: {
@@ -102,7 +102,7 @@ const messages = {
     ],
     electronicsMore: [
       'Programowanie mikrokontrolerów / embedded',
-      'Projektowanie układów, debug i pomiary',
+      'Projektowanie układów / troubleshooting',
     ],
   },
 } as const
